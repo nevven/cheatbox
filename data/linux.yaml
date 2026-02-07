@@ -1,0 +1,103 @@
+STYLE:
+  name: Linux
+  command_width: 12
+  outer_width: 135
+  primary_color: yellow
+
+Files & Navigation:
+  - command: ls -la
+    description: List all with details
+  - command: pwd
+    description: Print working directory
+  - command: cp -r
+    description: Copy (-r for directories)
+  - command: mv
+    description: Move or rename
+  - command: rm -r
+    description: Remove (-r for directories)
+  - command: mkdir -p
+    description: Create directory (-p nested)
+  - command: touch
+    description: Create empty file
+  - command: ln -s
+    description: Create symbolic link
+
+Viewing & Info:
+  - command: cat
+    description: Print file contents
+  - command: head -n
+    description: First n lines
+  - command: tail -f
+    description: Last lines (-f to follow)
+  - command: less
+    description: Scrollable viewer
+  - command: wc -l
+    description: Count lines
+  - command: du -sh
+    description: Folder size
+  - command: df -h
+    description: Disk space
+  - command: stat
+    description: File metadata
+  - command: file
+    description: Detect file type
+
+Text Processing:
+  - command: grep -r
+    description: Search text in files
+  - command: sed
+    description: Stream editor (find/replace)
+  - command: awk
+    description: Column/pattern processing
+  - command: sort
+    description: Sort lines
+  - command: uniq
+    description: Remove duplicate lines
+  - command: cut -d -f
+    description: Extract columns by delimiter
+  - command: tr
+    description: Translate/delete characters
+  - command: paste
+    description: Merge lines side by side
+
+Search & Archives:
+  - command: find
+    description: Search by name, type, date...
+  - command: locate
+    description: Fast search (indexed)
+  - command: tar -xzf
+    description: Extract .tar.gz
+  - command: tar -czf
+    description: Create .tar.gz
+  - command: gzip
+    description: Compress single file
+  - command: zip / unzip
+    description: Zip archives
+
+Processes & System:
+  - command: ps aux
+    description: List all processes
+  - command: top / htop
+    description: Live process monitor
+  - command: kill -9
+    description: Force kill by PID
+  - command: bg / fg
+    description: Background / foreground job
+  - command: nohup
+    description: Survive terminal close
+  - command: journalctl
+    description: System logs
+
+Networking:
+  - command: curl -O
+    description: Download / make requests
+  - command: wget
+    description: Download files
+  - command: ssh
+    description: Remote shell
+  - command: scp
+    description: Copy over SSH
+  - command: ping
+    description: Test connectivity
+  - command: netcat
+    description: Raw TCP/UDP connections

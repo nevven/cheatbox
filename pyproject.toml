@@ -1,0 +1,20 @@
+[project]
+name = "cheatbox"
+version = "0.1.0"
+description = "Cheatsheets in your terminal"
+requires-python = ">=3.12"
+dependencies = [
+    "pyyaml>=6.0",
+    "rich>=14.2.0",
+    "typer>=0.21.1",
+]
+
+[project.scripts]
+cheatbox = "cheatbox.main:app"
+
+[tool.uv]
+package = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
