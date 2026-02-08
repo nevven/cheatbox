@@ -1,0 +1,65 @@
+STYLE:
+  name: tc
+  command_width: 9
+  outer_width: 135
+  primary_color: cyan
+
+Navigation:
+  - command: CTRL+D
+    description: Directory Hotlist
+  - command: ALT+DOWN
+    description: History (w/ Quick Search)
+  - command: CTRL+DOWN 
+    description: Command Line History
+  - command: CTRL+TAB
+    description: Next Tab
+  - command: CTRL+UP / CTRL+PGUP
+    description: Go to Parent Directory
+  - command: CTRL+PGDN
+    description: Open Directory/Archive
+  - command: ALT+F1/F2
+    description: Change Drive Tab 1/2
+
+Search & Filter:
+  - command: CTRL+F
+    description: Search
+  - command: CTRL+S
+    description: Quick Search
+
+File Operations:
+  - command: F2
+    description: Rename 
+  - command: F5
+    description: Copy To Other Panel
+  - command: F6
+    description: Move To Other Panel
+  - command: F7
+    description: New Folder
+  - command: CTRL+SHIFT+C
+    description: Copy Name/s 
+
+View & Display:
+  - command: F3
+    description: View File 
+  - command: F4
+    description: Edit File 
+  - command: CTRL+SHIFT+X
+    description: Thumb View
+  - command: CTRL+SHIFT+H
+    description: Show Hidden Files
+  - command: SPACE
+    description: Dirsize Selected Dir
+  - command: ALT+SHIFT+ENTER
+    description: Dirsize ALL
+  - command: CTRL+R
+    description: Refresh
+  - command: CTRL+LEFT/RIGHT
+    description: Open Dir In Other Panel
+  - command: CTRL+B
+    description: Branch View
+
+External Tools / Commands:
+  - command: wt / ALT+T
+    description: Open Terminal in CWD
+  - command: fb
+    description: Open FileBot in CWD

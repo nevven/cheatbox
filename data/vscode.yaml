@@ -1,0 +1,45 @@
+STYLE:
+  name: vscode
+  command_width: 9
+  outer_width: 135
+  primary_color: cyan
+
+Navigation:
+  - command: CTRL+TAB
+    description: Switch Tab Left/Right
+  - command: CTRL+PGUP/PGDOWN
+    description: Next Tab
+  - command: CTRL+B
+    description: Show/Hide Explorer
+  - command: CTRL+`
+    description: Toggle Terminal
+  - command: 
+    description: 
+
+Selection / Position:
+  - command: ALT+SCROLL
+    description: Fast scroll
+  - command: CTRL+/
+    description: Comment
+  - command: CTRL+L
+    description: Select Line
+  - command: CTRL+F2
+    description: Select Same Word
+  - command: CTRL+D
+    description: Select Same Word Step
+  - command: 
+    description: 
+
+Operation:
+  - command: CTRL+DEL
+    description: Delete word
+  - command: SHIFT+DEL
+    description: Delete line
+  - command: CTRL+P 
+    description: Search Files
+  - command: CTRL+SHIFT+F
+    description: Search ALL (Custom)
+  - command: CTRL+ALT+M
+    description: Minimap (Custom)
+  - command: SHIFT + SPACE
+    description: Open Link (Custom)
