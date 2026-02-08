@@ -21,7 +21,7 @@ class Display:
         """Panel for each subdomain"""
         table = Table(show_header=True, header_style=f"bold {self.header_style}", box=None, expand=True)
         table.add_column(header="Command", style=self.primary_style, width=self.command_width, justify='left')
-        table.add_column(header="Description",style=self.description_style)
+        table.add_column(header="Description",style=self.description_style, ratio=1)
 
         for item in commands:
             table.add_row(item['command'], item['description'])
