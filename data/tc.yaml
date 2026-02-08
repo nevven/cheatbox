@@ -1,6 +1,6 @@
 STYLE:
   name: tc
-  command_width: 9
+  command_width: 20
   outer_width: 135
   primary_color: cyan
 
