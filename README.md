@@ -11,7 +11,7 @@ uv run cheatbox             # list available cheatsheets
 
 ## Adding Cheatsheets
 
-Create a YAML file in `data/`:
+Create a YAML file in `data/`. The filename (without `.yaml`) becomes the command argument.
 
 ```yaml
 STYLE:
