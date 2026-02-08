@@ -1,0 +1,27 @@
+STYLE:
+  name: Various
+  command_width: 12
+  outer_width: 135
+  primary_color: green
+
+MusicBee:
+  - command: Ctrl + E
+    description: Open in Explorer
+  - command: Pause
+    description: Pause (Global)
+  - command: Alt + PgUp
+    description: Volume Up
+  - command: Alt + PgDown
+    description: Volume Down
+  - command: Ctrl + D
+    description: Discogs-ID
+  - command: Ctrl + Shift + D
+    description: Search Discogs
+
+Mp3tag:
+  - command: Alt + T
+    description: Extended Tags
+
+Calibre:
+  - command: Shift + E
+    description: Edit Metadata
