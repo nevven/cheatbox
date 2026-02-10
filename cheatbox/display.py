@@ -14,8 +14,8 @@ class Display:
 
     def get_height(self, category_name, commands):
         """Get the expected height of panel"""
-        # Calculations: 2 (:Panel borders) + 2 (:Table header/divider) + N (rows)
-        return 4 + len(commands)
+        # Calculations: 2 (:Panel borders) + 1 (:Table header) + N (rows)
+        return 3 + len(commands)
 
     def box(self, category, commands, extra_padding=0):
         """Panel for each subdomain"""
