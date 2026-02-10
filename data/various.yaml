@@ -15,7 +15,7 @@ MusicBee:
     description: Volume Down
   - command: Ctrl + D
     description: Discogs-ID
-  - command: Ctrl + Shift + D
+  - command: Ctrl+Shift+D
     description: Search Discogs
 
 Mp3tag:
